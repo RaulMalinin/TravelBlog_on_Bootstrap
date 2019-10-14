@@ -1,0 +1,90 @@
+body {
+    background: #f8f8f8;
+}
+.header {
+    height: 400px;
+    color: #ffffff;
+    text-align: center;
+    background-image: url("../img/road-bg.jpg");
+    background-size: cover;
+}
+
+    
+
+.main {
+    margin-top: 3rem;
+}
+
+    .nav-link:hover {
+        color: #f4890a;
+    } 
+
+    .block {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background: #ffffff;
+
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    }
+
+    .active-page {
+        background-color: #f4890a;
+    }
+
+   
+
+    .footer {
+        margin-top: 3rem;
+        padding: 2rem 0;
+        color: #ffffff;
+        background-color: #302a31;
+    }
+
+    .copyright {
+        padding: 1rem;
+        text-align: center;
+        color: gray;
+        background-color: #302a31;
+    }
+
+    .nav-link {
+        color: #ffffff;
+    }
+
+    .nav-link:hover {
+        color:  #f4890a;
+    }
+
+    .title-subscrible {
+        margin-top: 2rem;
+    }
+
+    .title-tags {
+        margin-top: 2rem;
+    }
+
+    .badge {
+        background-color:  #f4890a; 
+    }
+
+    @media (max-width: 1190px) {
+        .display-2 {
+            font-size: 3.5rem;
+        }
+    }
+    
+    @media (max-width: 991px) {
+        .display-2 {
+            font-size: 3rem;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .header {
+            height: 300px;
+        }
+        .display-2 {
+            font-size: 2rem;
+        }
+    }
+    
